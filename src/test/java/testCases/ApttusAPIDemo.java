@@ -28,7 +28,7 @@ public class ApttusAPIDemo {
 		String apiUrl = prop.getProperty("apiURL");
 		RestAssured.baseURI =apiUrl;
 		String city = "Pune";
-		String keyAPI="e686306e2c24a6ab1821bf94ed870e29";
+		String keyAPI="6ab1821bf94ed870e29";
 			
 		String invalidAPIkey = given().log().all().queryParam("q", city).
 		when().get("data/3.0/stations").
