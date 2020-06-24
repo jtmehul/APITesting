@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5996" started-at="2020-06-24T07:03:53Z" finished-at="2020-06-24T07:03:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5996" started-at="2020-06-24T07:03:53Z" finished-at="2020-06-24T07:03:59Z">
+      <class name="testCases.ApttusAPIDemo">
+        <test-method status="PASS" signature="apiDemo(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.ApttusAPIDemo@1e397ed7]" name="apiDemo" duration-ms="4278" started-at="2020-06-24T07:03:53Z" data-provider="getData" finished-at="2020-06-24T07:03:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[e686306e2c24a6ab1821bf94ed870e29]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Staton_0022]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Amrav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+        <test-method status="PASS" signature="apiDemo(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.ApttusAPIDemo@1e397ed7]" name="apiDemo" duration-ms="1659" started-at="2020-06-24T07:03:58Z" data-provider="getData" finished-at="2020-06-24T07:03:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akola]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[e686306e2c24a6ab1821bf94ed870e29]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Staton_0033]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nagpur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- testCases.ApttusAPIDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
